@@ -75,6 +75,8 @@ public class DieTest
 		assertEquals("fourth value not wrapping back to first value 3", 2, die.getLastRoll());
 	}
 
+	
+	
 	@Test(expected = RuntimeException.class)
 	public void test_null_initial_int_array()
 	{
